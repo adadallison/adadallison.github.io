@@ -363,16 +363,19 @@
 
 .containergallery {
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 2rem;
+  max-width: 1500px;
+  padding: 0 3rem;
 }
 
 .responsive-image {
   max-width: 100%;
+
 }
 
 .cell img {
   display: block;
+  padding-bottom: 12px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 600px) {
@@ -386,3 +389,7 @@
   }
 }
 
+.insta {
+  text-decoration: none;
+  color: white;
+}
