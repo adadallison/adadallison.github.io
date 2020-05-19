@@ -1,0 +1,388 @@
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+  background-color: clear;
+}
+
+
+.navbar-font{
+  margin-top: -1%;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: inherit;
+
+}
+
+.centered-text{
+  text-align: center;
+
+}
+
+.bootstrap-container{
+  background-color: transparent;
+
+}
+
+
+.website-title{
+  font-family: inherit;
+  font-size: 59px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.coolestsunset-image{
+  background-position: 100px;
+  background-repeat:  no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  /*padding: 1rem; ADD THIS TO GRID OF ALL PHOTOS LATER*/
+}
+
+
+
+.yellowflower-image{
+  background-position: 100px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.malibu-image{
+  background-position: 100px;
+  background-repeat:  no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.malibucanyon-image{
+  background-position: 100px;
+  background-repeat:  no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.paintedsky-image{
+  background-position: 100px;
+  background-repeat:  no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.oceanbeach-image{
+  background-size: 100px ;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.joshuatree-image{
+  background-size: 100px ;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.foliage-image{
+  background-size: 100px ;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+.allison-adad{
+  font-style: oblique;
+  font-size: larger;
+  font-family: inherit;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+
+/*ABOUT WEBSITE START */
+
+
+.aboutbackground-color{
+  background-color: black;
+}
+
+.aboutbackground-color_1{
+  background-color: whitesmoke;
+}
+
+.thevalley-image{
+  background-size: 100px ;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  background-size: 100px ;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.col-container{
+  width: 100%;
+  height: 197vh;
+}
+
+.mybio{
+  font-family: inherit;
+  font-weight: 200;
+  font-style: oblique;
+  color: #333300;
+  margin-top: 15%;
+  margin-left: 11%;
+
+}
+
+
+.mybio2{
+  font-family: inherit;
+  font-weight: 100;
+  font-style: inherit;
+  color: whitesmoke;
+  margin-top: 14%;
+  margin-left: 11%;
+
+
+}
+
+.me-image{
+  display: block;
+  width: 45%;
+  height: 38%;
+  object-fit: cover;
+  border-radius: 80%;
+  margin-left: 11%;
+  margin-top: 33%;
+
+}
+
+.footer {
+  position:fixed;bottom:0;
+  width:100%;
+  display:block;
+  font-weight: 100;
+  color: whitesmoke;
+  font-size: x-small;
+}
+
+/*PHOTOGRAPHY WEBSITE START*/
+
+
+
+.calabasas-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.whitemalibudog-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+.stuntrd-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cloudmountain-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height:100%;
+}
+
+.joshuatree-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.joshuatreeman-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.morefoliage-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.shermanoaks-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height:100%;
+
+}
+
+.ontheroadjoshua-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.mulhollandmountain-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.vanillaflowers-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gabby-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.puddle-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.timesquare-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.greathighway-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.branch-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.goldengatepark-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+}
+
+.oceansaliva-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.newyorkpuddle-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.golf-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.moon-image{
+  display: block;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.margin-column{
+  margin-top: 14.5%;
+}
+
+/*CSS FLEXBOX*/
+
+.containergallery {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
