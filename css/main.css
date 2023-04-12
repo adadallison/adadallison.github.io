@@ -1,401 +1,395 @@
-.navbar{
-  list-style-type: none;
-  padding: 10px;
-  background-color: clear;
-}
-
-.navbar-nav{
-  padding-left: .9in;
-}
-
-.centered-text{
-  text-align: center;
-}
-
-.nav-center{
-  margin-right: 3in;
-}
-
-.nav-item{
-  font-size: 20px;
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-}
-
-
-/*NAV BAR*/
-
-.body-color {
-  background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
-}
-
-.bootstrap-container{
-  height: 100vh;
-}
-
-.website-title{
-  font-family: inherit;
-  font-size: 59px;
-  font-weight: bold;
-  color: whitesmoke;
-}
-
-.logo{
-  display: block;
-  margin-right: .8in;
-  height: 150px;
-  width: 150px;
-  padding: 1rem
-
-}
-
-.logo2{
-  display: block;
-  position: center;
-  height: 230px;
-  width: 230px;
-  margin-top: 0in;
-}
-
-/*.title{
-  display:
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-}*/
-
-.flex{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  max-width: 200vh;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 90vh;
-  margin-bottom: auto ;
-  padding: .7in;
-  overflow: hidden;
-
-}
-
-h1{
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  color:#de6954;
-  font-size: 7vw;
-  font-weight: bold;
-  margin: 8px;
-}
-
-.place{
-  font-family: "Helvetica Neue";
-  letter-spacing: .12em;
-  line-height: 1.25;
-  text-transform: uppercase;
-  color: white;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  font-size: 1.5vw;
-  font-weight: 200;
-}
-
-.date{
-  font-family: "Helvetica Neue";
-  letter-spacing: .20em;
-  line-height: 1.15;
-  text-transform: uppercase;
-  color: white;
-  font-weight: bold;
-  font-size: 2vw;
-}
-
-
-/*This is coded CSS rainbow*/
-
-/* .rainbow:hover  */
-.rainbow {
-  -webkit-animation:rainbow 1s infinite;
-  -ms-animation:rainbow 1s infinite;
-  -o-animation:rainbow 1s infinite;
-  animation:rainbow 3s infinite;
-}
-@-webkit-keyframes rainbow {
-  0% {color: #ff0000;}
-  10% {color: #ff8000;}
-  20% {color: #ffff00;}
-  30% {color: #80ff00;}
-  40% {color: #00ff00;}
-  50% {color: #00ff80;}
-  60% {color: #00ffff;}
-  70% {color: #0080ff;}
-  80% {color: #0000ff;}
-  90% {color: #8000ff;}
-  100% {color: #ff0080;}
-}
-@-ms-keyframes rainbow {
-  0% {color: #ff0000;}
-  10% {color: #ff8000;}
-  20% {color: #ffff00;}
-  30% {color: #80ff00;}
-  40% {color: #00ff00;}
-  50% {color: #00ff80;}
-  60% {color: #00ffff;}
-  70% {color: #0080ff;}
-  80% {color: #0000ff;}
-  90% {color: #8000ff;}
-  100% {color: #ff0080;}
-}
-@-o-keyframes rainbow {
-  0% {color: #ff0000;}
-  10% {color: #ff8000;}
-  20% {color: #ffff00;}
-  30% {color: #80ff00;}
-  40% {color: #00ff00;}
-  50% {color: #00ff80;}
-  60% {color: #00ffff;}
-  70% {color: #0080ff;}
-  80% {color: #0000ff;}
-  90% {color: #8000ff;}
-  100% {color: #ff0080;}
-}
-@keyframes rainbow {
-  0% {color: #ff0000;}
-  10% {color: #ff8000;}
-  20% {color: #ffff00;}
-  30% {color: #80ff00;}
-  40% {color: #00ff00;}
-  50% {color: #00ff80;}
-  60% {color: #00ffff;}
-  70% {color: #0080ff;}
-  80% {color: #0000ff;}
-  90% {color: #8000ff;}
-  100% {color: #ff0080;}
-}
-
-.button{
-  border-radius: 28px;
-  border-width: 5px;
-  border-color: #de6954;
-  background: transparent;
-  color: white;
-  margin-top: 7px;
-  height: 50px;
-  width: 200px;
-  cursor:pointer;
-
-}
-
-/* ABOUT */
-
-.bgpic {
-  position: relative;
-
-}
-
-.bg {
-  top: 0;
-  left: 0;
-  background-attachment: fixed;
-  opacity: .2 ;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  object-fit:cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-
-}
-.h2{
-  solid-opacity: 7%;
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  color:#de6954;
-  font-size: 5vw;
-  font-weight: 700;
-
-}
-
-.about{
-   text-align: center;
+navbar{
+   list-style-type: none;
+   margin: 0;
+   padding: 4px;
+   background-color: clear;
  }
 
-.aboutp{
-  line-height: .8in;
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  padding: 55px;
-}
 
-.sponsors{
-  display: block;
-  width: 100%;
-  height: 90%;
-  margin-top: 50px;
-  justify-contet: inherit;
-  align-items: inherit; /* HELPED FOR RESIZING AND FITTING TO SCREEN*/
+ .navbar-font{
+   margin-top: -1%;
+   font-size: 35px;
+   font-weight: bolder;
+   font-family: inherit;
 
-}
+ }
 
-.h1{
-  solid-opacity: 7%;
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  color:#de6954;
-  font-size: 4vw;
-  font-weight: 700;
-  margin-top: 120px;
-}
+ .centered-text{
+   text-align: center;
 
-.h1spo{
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: white;
-  margin-top: 50px;
-}
+ }
 
-/* FOOTER */
+ .bootstrap-container{
+   background-color: transparent;
 
-footer .social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-section {
-  width: 92%;
-  /* max-width: var(--ch-maxWidth); */
-  margin: 1px auto;
-  padding-right: .5in;
-  text-align: inherit;
-}
-
-.footercon{
-  background: white;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  flex-grow: 1;
-}
-
-.footercol {
-  width: 100%;
-  flex-grow: 0;
-  flex-shrink: 1;
-  margin:auto;
-}
-
-.rows{
-  display: flex;
-  flex-direction: row-reverse;
-  color: #de6954;
-  font-weight: 400 ;
-  padding-right: .2in;
-  padding-left: .2in;
-  padding-top: .2in;
-}
-
-/* FAQ */
-
-.flex-container {
-  list-style: none;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-  overflow-x: scroll;
-  height: 100vh;
-}
-
-.flex-item {
-  background: #de6954;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 10px;
-}
-
-/* FAQ */
-
-.faqh1{
-  text-align: center;
-  font-size: 5vw;
-  margin: 15px;
-}
-
-.flex-box{
-  display:flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.faqcontainer {
-  position: relative;
-  border-width: 1.7px;
-  border-style: solid;
-  margin: 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 1.2px;
-  background-color: whitesmoke;
-
-  height: 16vw;
-  width: 27vw;
-
-  border-style: solid;
-  border-color: #de6954  ;
-}
+ }
 
 
-.overlay {
-  position: relative;
-  height: 16vw;
-  width: 27vw;
-  opacity: 0;
-  transition: .7s ease;
-  background-color: #de6954;
-  font-family: Courier;
-  color: #de6954;
-}
+ .website-title{
+   font-family: inherit;
+   font-size: 59px;
+   font-weight: bold;
+   color: whitesmoke;
+ }
 
-.faqcontainer:hover .overlay {
-  opacity: 1;
-}
-
-.faqtext {
-  color: white;
-  font-size: 1.2vw;
-  font-weight: 400;
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  text-align: center;
-  padding: 30px;
-}
+ .coolestsunset-image{
+   background-position: 100px;
+   background-repeat:  no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   /*padding: 1rem; ADD THIS TO GRID OF ALL PHOTOS LATER*/
+ }
 
 
-.ques{
-  position: absolute;
-  /* border-style: solid;
-  border-color: de6954; */
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  /* height: 95%;
-  width: 80%; */
-  color: #de6954;
-  font-size: 1.34vw;
-  font-weight: 300;
-  text-align: center;
 
-  /* padding: 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 1.2px;
-  color: #de6954; */
+ .yellowflower-image{
+   background-position: 100px;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+ }
 
-  text-transform: uppercase;
+ .malibu-image{
+   background-position: 100px;
+   background-repeat:  no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+ }
 
-}
+ .malibucanyon-image{
+   background-position: 100px;
+   background-repeat:  no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+ }
+
+ .paintedsky-image{
+   background-position: 100px;
+   background-repeat:  no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+ }
+
+ .oceanbeach-image{
+   background-size: 100px ;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+
+ }
+
+ .joshuatree-image{
+   background-size: 100px ;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+
+ }
+
+ .foliage-image{
+   background-size: 100px ;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+
+ }
+
+
+ .allison-adad{
+   font-style: oblique;
+   font-size: larger;
+   font-family: inherit;
+   font-weight: bolder;
+   margin-top: 3%;
+ }
+
+ /*ABOUT WEBSITE START */
+
+
+ .aboutbackground-color{
+   background-color: black;
+ }
+
+ .aboutbackground-color_1{
+   background-color: whitesmoke;
+ }
+
+ .thevalley-image{
+   background-size: 100px ;
+   background-repeat: no-repeat;
+   object-fit:cover;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+ }
+
+ #bg {
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   /* Preserve aspet ratio */
+   background-size: 100px ;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+ }
+
+ .col-container{
+   width: 100%;
+   height: 197vh;
+ }
+
+ .mybio{
+   font-family: inherit;
+   font-weight: 200;
+   font-style: oblique;
+   color: #333300;
+   margin-top: 15%;
+   margin-left: 11%;
+
+ }
+
+
+ .mybio2{
+   font-family: inherit;
+   font-weight: 100;
+   font-style: inherit;
+   color: whitesmoke;
+   margin-top: 14%;
+   margin-left: 11%;
+
+
+ }
+
+ .me-image{
+   display: block;
+   width: 45%;
+   height: 38%;
+   object-fit: cover;
+   border-radius: 80%;
+   margin-left: 11%;
+   margin-top: 33%;
+
+ }
+
+ .footer {
+   position:fixed;bottom:0;
+   width:100%;
+   display:block;
+   font-weight: 100;
+   color: whitesmoke;
+   font-size: x-small;
+ }
+
+ /*PHOTOGRAPHY WEBSITE START*/
+
+
+
+ .calabasas-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .whitemalibudog-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+
+ .stuntrd-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .cloudmountain-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height:100%;
+ }
+
+ .joshuatree-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .joshuatreeman-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .morefoliage-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .shermanoaks-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height:100%;
+
+ }
+
+ .ontheroadjoshua-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .mulhollandmountain-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .vanillaflowers-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .gabby-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .puddle-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .timesquare-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .greathighway-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .branch-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .goldengatepark-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .oceansaliva-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .newyorkpuddle-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .golf-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .moon-image{
+   display: block;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .margin-column{
+   margin-top: 14.5%;
+ }
+
+ /*CSS FLEXBOX*/
+
+ .containergallery {
+   margin: 0 auto;
+   max-width: 1500px;
+   padding: 0 3rem;
+ }
+
+ .responsive-image {
+   max-width: 100%;
+
+ }
+
+ .cell img {
+   display: block;
+   padding-bottom: 12px;
+   padding-right: 15px;
+ }
+
+ @media screen and (min-width: 600px) {
+   .grid {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+   }
+   .cell {
+     width: 50%;
+   }
+ }
+
+ .insta {
+   text-decoration: none;
+   color: white;
+ }
